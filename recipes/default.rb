@@ -5,7 +5,7 @@
 # Copyright 2013, HiganWorks LLC.
 #
 
-include_recipe 'mruby::depends'
+# include_recipe 'mruby::depends'
 
 directory node[:mruby][:build_dir] do
   action :create
