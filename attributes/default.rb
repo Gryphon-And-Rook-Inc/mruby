@@ -1,5 +1,5 @@
 default[:mruby][:build_dir] = '/opt/chef_mruby'
-default[:mruby][:use_chef_ruby] = true
+default[:mruby][:use_chef_ruby] = false
 default[:mruby][:add_path] = '/usr/local/bin'
 default[:mruby][:git_refernce] = 'master'
 
